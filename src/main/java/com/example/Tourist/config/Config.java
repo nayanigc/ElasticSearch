@@ -15,7 +15,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 /**
  * Ici on va essaie de faire la configuration
  * Dans le cas index lié a la banque et donc au compte
- *
+ *aance
  */
 
 @Configuration

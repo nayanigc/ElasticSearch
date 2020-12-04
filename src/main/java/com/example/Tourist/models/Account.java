@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.*;
-
+// La date de Account
 @Entity
 @Data
 @AllArgsConstructor

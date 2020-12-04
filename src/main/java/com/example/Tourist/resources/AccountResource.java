@@ -32,6 +32,7 @@ public class AccountResource {
             return accountService.searchAll();
     }
 
+    // recherche de id
     @RequestMapping(value = "/account/{id}" , method = RequestMethod.GET)
     public Object search_account (@PathVariable("id") int idd) {
       return accountService.findOne(idd);

@@ -25,7 +25,7 @@ import static org.elasticsearch.common.xcontent.XContentType.JSON;
 @Component
 @Slf4j
 public class AccountIndexer {
-
+    //faire de l'indexation
     private static final Logger LOGGER = LoggerFactory.getLogger(AccountIndexer.class);
 
     private static final String SITES_INDEX = "accounts";

@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+/**
+ * Les service permet de l'implemnte la Repository
+ */
 
 @Service
 public class AccountService {
