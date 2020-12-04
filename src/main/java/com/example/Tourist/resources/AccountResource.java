@@ -36,6 +36,7 @@ public class AccountResource {
     public Object search_account (@PathVariable("id") int idd) {
       return accountService.findOne(idd);
     }
+    // Supprime
     @RequestMapping(value = "/account/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<Account> deleteGreeting(@PathVariable("id") int idd) {
         accountService.delete(idd);
