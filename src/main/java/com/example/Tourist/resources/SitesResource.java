@@ -1,4 +1,4 @@
 package com.example.Tourist.resources;
 
-public class SitesResurce {
+public class SitesResource {
 }
